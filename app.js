@@ -21,7 +21,29 @@ function agregarAmigo() {
     // Limpiar el campo de entrada
     campoAmigo.value = '';
     
+    // Mostrar la lista actualizada
+    mostrarListaAmigos();
+    
     // Opcional: Mostrar confirmación en consola
     console.log('Amigo agregado:', nombreAmigo);
     console.log('Lista actual de amigos:', amigos);
+}
+
+// Función para mostrar la lista de amigos en el HTML
+function mostrarListaAmigos() {
+    // Obtener el elemento de la lista
+    const lista = document.getElementById('listaAmigos');
+    
+    // Limpiar la lista existente
+    lista.innerHTML = "";
+    
+    // Iterar sobre el arreglo de amigos
+    for (let i = 0; i < amigos.length; i++) {
+        // Crear un nuevo elemento de lista para cada amigo
+        const elementoLista = document.createElement('li');
+        elementoLista.textContent = amigos[i];
+        
+        // Agregar el elemento a la lista
+        lista.appendChild(elementoLista);
+    }
 }
