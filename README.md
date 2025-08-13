@@ -1,9 +1,16 @@
 # 🎁 Amigo Secreto
 
+[![Desarrollado por MJ](https://img.shields.io/badge/Desarrollado%20por-MJ-blue?style=for-the-badge&logo=javascript)](https://github.com/tu-usuario)
 
 ## ¿Qué es?
 
 Una aplicación web simple para jugar al "Amigo Secreto". Permite agregar nombres de amigos y sortear uno de manera aleatoria.
+
+## 🎬 Demostración
+
+![Demo Amigo Secreto](assets/demo-amigo-secreto.gif)
+
+*GIF mostrando cómo agregar nombres y realizar el sorteo*
 
 ## Funcionalidades
 
@@ -25,6 +32,7 @@ Una aplicación web simple para jugar al "Amigo Secreto". Permite agregar nombre
 - `style.css` - Estilos y diseño
 - `app.js` - Funciones de la aplicación
 - `assets/` - Imágenes y recursos
+  - `demo-amigo-secreto.gif` - Demostración de la aplicación
 
 ## Tecnologías
 
@@ -32,7 +40,5 @@ Una aplicación web simple para jugar al "Amigo Secreto". Permite agregar nombre
 - CSS
 - JavaScript puro
 
-
-[![Desarrollado por MJ](https://img.shields.io/badge/Desarrollado%20por-MJ-blue?style=for-the-badge&logo=javascript)](https://github.com/tu-usuario)
 
 **Desarrollado como proyecto de práctica de lógica de programación**
